@@ -1,0 +1,15 @@
+{
+    "service": {
+      "name": "mongodb",
+      "tags": [
+        "database",
+        "db",
+        "nosql"
+      ],
+      "port": 28017,
+      "check": {
+        "tcp": "localhost:28017",
+        "interval": "20s"
+      }
+    }
+  }
